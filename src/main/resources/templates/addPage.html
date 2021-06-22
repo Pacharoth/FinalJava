@@ -14,7 +14,7 @@
 </head>
 <body>
     <div class="container w-50 p-2">
-        <div class="alert alert-primary hidedata">Cannot add Member </div>
+        <div class="alert alert-primary hidedata"> </div>
         <h1>Add Customer</h1>
         <form id="form" method="POST">
 
@@ -45,23 +45,40 @@
                 e.preventDefault();
                 var phoneNumberRegex= /^[+ 0]\d{8,}$/
                 var formData = new FormData(form);
-                console.log(formData.get("phonenumber").type);
-                console.log(formData.get("visiting").type);
-                console.log(formData.get("exitdate").type);
+                var exitdata=new Date(formData.get("exitdate"));
+                var error= document.querySelector(".hidedata");
+                var visting = new Date(formData.get("visiting"));
                 if(phoneNumberRegex.test(String(formData.get("phonenumber")))){
-                    // var response =await axios.post("/resort",formData);
-                    console.log(response.data)
+                    if(visting<=exitdata){
+                        const data={
+                            phonenumber:formData.get("phonenumber"),
+                            members:formData.get("members"),
+                            visiting:formData.get("visiting"),
+                            exitdate:formData.get("exitdate")
+                        }
+                        var response = await axios.post("/resort",data);
+                        console.log(response.data)
+                        if(response.data.length>0){
+                            // history.pushState(data,"List Customer","/listmember");
+                            window.location.pathname="/listmember";
+                        }else{
+                            error.style.display="block";
+                            error.innerHTML= "Can't create Customer"; 
+                        }
+                    }else{
+                        error.style.display="block";
+                        error.innerHTML= "Visit should be smaller than or equal exitdate"; 
+                    }
+                    
                 }else{
-                   var error= document.getElementById("hidedata");
                    error.style.display="block";
                    error.innerHTML= "Phone Number is not right"; 
-                   setTimeout(()=>{
+                }
+                setTimeout(()=>{
                        error.innerHTML="";
                        error.style.display="none"
-                    },2000
-                       )
-                            
-                }
+                },2000
+                )
                 
             }
         }

@@ -1,5 +1,6 @@
 package Resort.Resorts;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,8 +18,10 @@ public class ResortRestController {
         return resortService.listResort();
     }
     @PostMapping("/resort")
-    public Resort addResort(@RequestBody Resort resort){
+    public List<Resort> addResort(@RequestBody Resort resort){
+        ArrayList <Resort> resorts = new ArrayList<Resort>();
         System.out.println(resort);
-        return resortService.addResort(resort);
+        resorts.add(resortService.addResort(resort));
+        return resorts;
     }
 }

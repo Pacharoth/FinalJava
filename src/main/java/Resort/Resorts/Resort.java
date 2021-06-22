@@ -3,18 +3,20 @@ package Resort.Resorts;
 import java.util.Date;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 @Entity
 public class Resort {
-    @Id
+    @Id @GeneratedValue
     private int id;
+    private static int count=0;
     private String phonenumber;
     private int members;
     private Date visiting;
     private Date exitdate;
 
-    public Resort(int id, String phonenumber, int members, Date visiting, Date exitdate) {
-        this.id = id;
+    public Resort( String phonenumber, int members, Date visiting, Date exitdate) {
+        this.id = ++count;
         this.phonenumber = phonenumber;
         this.members = members;
         this.visiting = visiting;

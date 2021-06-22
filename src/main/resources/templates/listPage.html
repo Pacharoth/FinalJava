@@ -32,9 +32,10 @@
         async function listCustomer(){
             var customer = document.getElementById("customer");
             var response = await axios.get("/resort");
-            var tr = document.createElement("tr");
             console.log(response.data);
             for (const data of response.data) {
+                var tr = document.createElement("tr");
+
                 var {id,phonenumber,members,visiting,exitdate}=data
                 console.log(data)
                 var tf =  document.createElement("td")
@@ -46,7 +47,7 @@
                 tdPhoneNumber.innerHTML=data.phonenumber
                 tdMembers.innerHTML =data.members
                 var visitDate = new Date(data.visiting);
-                var exitDate = new Date(data.exitDate);
+                var exitDate = new Date(data.exitdate);
                 tdVisiting.innerHTML=visitDate.toLocaleDateString()+" "+visitDate.getHours()+":"+visitDate.getMinutes();
                 tdExitDate.innerHTML= exitDate.toLocaleDateString()+" "+exitDate.getHours()+":"+exitDate.getMinutes()
                 tr.appendChild(tdPhoneNumber);
