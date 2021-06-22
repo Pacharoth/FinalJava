@@ -1,0 +1,112 @@
+----------------------------------------------------------------
+Tue Jun 22 16:29:05 ICT 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-017a-330d-45b4-000007eeebb0 
+on database directory memory:/media/roeun/1a56b31e-3ba0-48b3-b6d1-7471c6fa0601/roeun/java/finalexam/Resort/resortpalace/a0a666ca-5e50-4952-9fc0-7d703c6c7982 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/roeun/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/media/roeun/1a56b31e-3ba0-48b3-b6d1-7471c6fa0601/roeun/java/finalexam/Resort/resortpalace
+os.name=Linux
+os.arch=amd64
+os.version=5.8.0-55-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue Jun 22 16:34:41 ICT 2021:
+Shutting down instance a816c00e-017a-330d-45b4-000007eeebb0 on database directory memory:/media/roeun/1a56b31e-3ba0-48b3-b6d1-7471c6fa0601/roeun/java/finalexam/Resort/resortpalace/a0a666ca-5e50-4952-9fc0-7d703c6c7982 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+----------------------------------------------------------------
+Tue Jun 22 16:34:43 ICT 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 176240b2-017a-330d-45b4-000007eeebb0 
+on database directory memory:/media/roeun/1a56b31e-3ba0-48b3-b6d1-7471c6fa0601/roeun/java/finalexam/Resort/resortpalace/3cebca0a-f6e2-46d0-846a-1ad1f141b8e3 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/roeun/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/media/roeun/1a56b31e-3ba0-48b3-b6d1-7471c6fa0601/roeun/java/finalexam/Resort/resortpalace
+os.name=Linux
+os.arch=amd64
+os.version=5.8.0-55-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue Jun 22 16:34:58 ICT 2021:
+Shutting down instance 176240b2-017a-330d-45b4-000007eeebb0 on database directory memory:/media/roeun/1a56b31e-3ba0-48b3-b6d1-7471c6fa0601/roeun/java/finalexam/Resort/resortpalace/3cebca0a-f6e2-46d0-846a-1ad1f141b8e3 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+----------------------------------------------------------------
+Tue Jun 22 16:34:59 ICT 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a0f1c156-017a-330d-45b4-000007eeebb0 
+on database directory memory:/media/roeun/1a56b31e-3ba0-48b3-b6d1-7471c6fa0601/roeun/java/finalexam/Resort/resortpalace/65d5dcd4-93e0-4faa-8289-f3a8f1e05326 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/roeun/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/media/roeun/1a56b31e-3ba0-48b3-b6d1-7471c6fa0601/roeun/java/finalexam/Resort/resortpalace
+os.name=Linux
+os.arch=amd64
+os.version=5.8.0-55-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue Jun 22 16:35:14 ICT 2021:
+Shutting down instance a0f1c156-017a-330d-45b4-000007eeebb0 on database directory memory:/media/roeun/1a56b31e-3ba0-48b3-b6d1-7471c6fa0601/roeun/java/finalexam/Resort/resortpalace/65d5dcd4-93e0-4faa-8289-f3a8f1e05326 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+----------------------------------------------------------------
+Tue Jun 22 16:35:15 ICT 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 44c541fa-017a-330d-45b4-000007eeebb0 
+on database directory memory:/media/roeun/1a56b31e-3ba0-48b3-b6d1-7471c6fa0601/roeun/java/finalexam/Resort/resortpalace/03ea4385-f4e4-4ce4-9da8-cb9cc7505f4b with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/roeun/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/media/roeun/1a56b31e-3ba0-48b3-b6d1-7471c6fa0601/roeun/java/finalexam/Resort/resortpalace
+os.name=Linux
+os.arch=amd64
+os.version=5.8.0-55-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue Jun 22 16:35:19 ICT 2021:
+Shutting down instance 44c541fa-017a-330d-45b4-000007eeebb0 on database directory memory:/media/roeun/1a56b31e-3ba0-48b3-b6d1-7471c6fa0601/roeun/java/finalexam/Resort/resortpalace/03ea4385-f4e4-4ce4-9da8-cb9cc7505f4b with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+----------------------------------------------------------------
+Tue Jun 22 16:35:20 ICT 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 02dcc29e-017a-330d-45b4-000007eeebb0 
+on database directory memory:/media/roeun/1a56b31e-3ba0-48b3-b6d1-7471c6fa0601/roeun/java/finalexam/Resort/resortpalace/7ce61065-adb2-46ca-a815-fa26cda2ef7c with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/roeun/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/media/roeun/1a56b31e-3ba0-48b3-b6d1-7471c6fa0601/roeun/java/finalexam/Resort/resortpalace
+os.name=Linux
+os.arch=amd64
+os.version=5.8.0-55-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue Jun 22 16:36:21 ICT 2021:
+Shutting down instance 02dcc29e-017a-330d-45b4-000007eeebb0 on database directory memory:/media/roeun/1a56b31e-3ba0-48b3-b6d1-7471c6fa0601/roeun/java/finalexam/Resort/resortpalace/7ce61065-adb2-46ca-a815-fa26cda2ef7c with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+----------------------------------------------------------------
+Tue Jun 22 16:36:22 ICT 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance db384342-017a-330d-45b4-000007eeebb0 
+on database directory memory:/media/roeun/1a56b31e-3ba0-48b3-b6d1-7471c6fa0601/roeun/java/finalexam/Resort/resortpalace/eaa43f33-4e9a-48fc-94ce-734b3a6fcbe1 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/roeun/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/media/roeun/1a56b31e-3ba0-48b3-b6d1-7471c6fa0601/roeun/java/finalexam/Resort/resortpalace
+os.name=Linux
+os.arch=amd64
+os.version=5.8.0-55-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue Jun 22 16:36:24 ICT 2021:
+Shutting down instance db384342-017a-330d-45b4-000007eeebb0 on database directory memory:/media/roeun/1a56b31e-3ba0-48b3-b6d1-7471c6fa0601/roeun/java/finalexam/Resort/resortpalace/eaa43f33-4e9a-48fc-94ce-734b3a6fcbe1 with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+----------------------------------------------------------------
+Tue Jun 22 16:36:26 ICT 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance cdd7c3e6-017a-330d-45b4-000007eeebb0 
+on database directory memory:/media/roeun/1a56b31e-3ba0-48b3-b6d1-7471c6fa0601/roeun/java/finalexam/Resort/resortpalace/70aeff7a-7cdc-428a-b008-65de77c568ce with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/roeun/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.20.04
+user.dir=/media/roeun/1a56b31e-3ba0-48b3-b6d1-7471c6fa0601/roeun/java/finalexam/Resort/resortpalace
+os.name=Linux
+os.arch=amd64
+os.version=5.8.0-55-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue Jun 22 16:37:40 ICT 2021:
+Shutting down instance cdd7c3e6-017a-330d-45b4-000007eeebb0 on database directory memory:/media/roeun/1a56b31e-3ba0-48b3-b6d1-7471c6fa0601/roeun/java/finalexam/Resort/resortpalace/70aeff7a-7cdc-428a-b008-65de77c568ce with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
